@@ -1,7 +1,7 @@
 window.siteData = {
   brand: {
-    title: "Academic Research Studio",
-    kicker: "Research Studio"
+    title: "Synthesis Lab",
+    kicker: "Synthesis Lab"
   },
   navigation: [
     { label: "Home", href: "index.html" },
@@ -15,7 +15,12 @@ window.siteData = {
     eyebrow: "Interdisciplinary Research",
     title: "Building rigorous ideas for policy, society, and technology.",
     summary:
-      "This editable academic homepage blends the institutional clarity of a faculty center website with the personality and update rhythm of a modern research group. It is designed for professors, labs, and interdisciplinary teams who want a polished public presence without making future edits painful.",
+      "Synthesis Lab is an interdisciplinary research platform for integrating ideas across policy, society, and technology.",
+    image: {
+      src: "images/hero-portrait.jpg",
+      alt: "Replace this with a portrait, campus image, or research scene",
+      caption: "Replace this image path in content/site-data.js after adding a file to the images folder."
+    },
     primaryAction: {
       label: "View Publications",
       href: "#publications"
@@ -217,6 +222,10 @@ window.siteData = {
       name: "Professor Name",
       role: "Principal Investigator",
       bio: "Researches political economy, institutional change, and the governance of technological transformation.",
+      image: {
+        src: "images/professor-photo.jpg",
+        alt: "Professor portrait"
+      },
       links: [
         { label: "CV", href: "#" },
         { label: "Google Scholar", href: "#" }
@@ -226,18 +235,30 @@ window.siteData = {
       name: "Researcher One",
       role: "Postdoctoral Fellow",
       bio: "Focuses on comparative development, industrial policy, and state-business relations.",
+      image: {
+        src: "images/researcher-one.jpg",
+        alt: "Researcher One portrait"
+      },
       links: [{ label: "Profile", href: "#" }]
     },
     {
       name: "Researcher Two",
       role: "PhD Candidate",
       bio: "Works on digital governance, data infrastructures, and regulatory experimentation.",
+      image: {
+        src: "images/researcher-two.jpg",
+        alt: "Researcher Two portrait"
+      },
       links: [{ label: "Profile", href: "#" }]
     },
     {
       name: "Researcher Three",
       role: "Research Associate",
       bio: "Supports archival research, workshop organization, and publication management.",
+      image: {
+        src: "images/researcher-three.jpg",
+        alt: "Researcher Three portrait"
+      },
       links: [{ label: "Profile", href: "#" }]
     }
   ],
@@ -304,6 +325,10 @@ window.siteData = {
         name: "Professor Name",
         role: "Principal Investigator",
         bio: "Researches political economy, institutional change, and the governance of technological transformation.",
+        image: {
+          src: "images/professor-photo.jpg",
+          alt: "Professor portrait"
+        },
         links: [
           { label: "CV", href: "#" },
           { label: "Google Scholar", href: "#" }
@@ -313,30 +338,50 @@ window.siteData = {
         name: "Researcher One",
         role: "Postdoctoral Fellow",
         bio: "Focuses on comparative development, industrial policy, and state-business relations.",
+        image: {
+          src: "images/researcher-one.jpg",
+          alt: "Researcher One portrait"
+        },
         links: [{ label: "Profile", href: "#" }]
       },
       {
         name: "Researcher Two",
         role: "PhD Candidate",
         bio: "Works on digital governance, data infrastructures, and regulatory experimentation.",
+        image: {
+          src: "images/researcher-two.jpg",
+          alt: "Researcher Two portrait"
+        },
         links: [{ label: "Profile", href: "#" }]
       },
       {
         name: "Researcher Three",
         role: "Research Associate",
         bio: "Supports archival research, workshop organization, and publication management.",
+        image: {
+          src: "images/researcher-three.jpg",
+          alt: "Researcher Three portrait"
+        },
         links: [{ label: "Profile", href: "#" }]
       },
       {
         name: "Visiting Collaborator",
         role: "Visiting Scholar",
         bio: "Contributes comparative perspectives on innovation policy and institutional reform.",
+        image: {
+          src: "images/visiting-collaborator.jpg",
+          alt: "Visiting collaborator portrait"
+        },
         links: [{ label: "Institution", href: "#" }]
       },
       {
         name: "Graduate Assistant",
         role: "Research Assistant",
         bio: "Supports data curation, event logistics, and literature review across multiple projects.",
+        image: {
+          src: "images/graduate-assistant.jpg",
+          alt: "Graduate assistant portrait"
+        },
         links: [{ label: "Profile", href: "#" }]
       }
     ],
